@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let firebaseOptions = FirebaseOptions(googleAppID: "1:793591492190:ios:7fa9e64b503765ca1e8ecf", gcmSenderID: "793591492190")
         firebaseOptions.databaseURL = "https://medapp-e9327-default-rtdb.asia-southeast1.firebasedatabase.app"
-        firebaseOptions.apiKey = "AIzaSyC_Z_gboCf_wq-OLqlf_H8Yv35nZ6iG4Gg"
+        firebaseOptions.apiKey = "xxx"
         firebaseOptions.projectID = "medapp-e9327"
         firebaseOptions.storageBucket = "medapp-e9327.appspot.com"
         FirebaseApp.configure(options: firebaseOptions)
